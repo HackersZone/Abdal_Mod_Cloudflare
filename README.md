@@ -1,7 +1,7 @@
 # mod_cloudflare for Apache #
-Copyright CloudFlare Inc. 2016
 
-## mod_cloudflare.c ##
+
+## Abdal mod_cloudflare.c ##
 
 Based on mod_remoteip.c, this Apache extension will replace the remote_ip variable in user's logs with the correct remote IP sent from CloudFlare. The module only performs the IP substitution for requests originating from CloudFlare IPs by default.
 
